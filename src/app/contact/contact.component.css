@@ -1,0 +1,23 @@
+#contact-bg{
+    background-image: url('/assets/images/banner.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 40%;
+}
+#contact-bg > h1,p{
+    color: #fff;
+    text-align: center;
+}
+#contact-bg > h1{
+    padding-top: 7%;
+}
+.contct-text > p{
+    color: black;
+    text-align: left;
+}
+
+.contct-msg{
+    border: 1px solid #e1e1e1;
+    font-weight: lighter;
+}

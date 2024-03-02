@@ -1,0 +1,11 @@
+.text{
+    text-decoration:dotted;
+}
+.text-bg{
+    background-image: url('/assets/images/banner.png');
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fff;
+}
