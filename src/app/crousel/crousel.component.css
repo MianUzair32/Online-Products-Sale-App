@@ -23,5 +23,12 @@
 }
 .carousel-caption{
     margin-top: 100px;
-  
+}
+.crousel-btn{
+    cursor: pointer;
+}
+.crousel-btn:hover{
+    outline-color: #fff;
+    background-color: #fff;
+    color: blue;
 }
