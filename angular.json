@@ -41,7 +41,8 @@
               "./node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": ["./node_modules/bootstrap/dist/js/bootstrap.min.js",
-            "/src/assets/js/scroll-back.js"
+            "/src/assets/js/scroll-back.js",
+            "src/assets/js/FAQ Accordion.js"
           ],
             "server": "src/main.server.ts",
             "prerender": true,

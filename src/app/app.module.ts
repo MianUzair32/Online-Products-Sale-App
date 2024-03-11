@@ -14,6 +14,8 @@ import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { ScrolltopComponent } from './scrolltop/scrolltop.component';
+import { FaqComponent } from './faq/faq.component';
+import { AddtocartComponent } from './addtocart/addtocart.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { ScrolltopComponent } from './scrolltop/scrolltop.component';
     AboutComponent,
     HomeComponent,
     ContactComponent,
-    ScrolltopComponent
+    ScrolltopComponent,
+    FaqComponent,
+    AddtocartComponent
   ],
   imports: [
     BrowserModule,
