@@ -5,7 +5,7 @@
     width: 25%;
     height: 30%;
    margin-top: 5%;
-   margin-left: 20%;
+   margin-left: 15%;
 }
 .section{
     background-image: url('/assets/images/banner.png');
@@ -17,10 +17,10 @@
 }
 .carousel-caption{
     position: absolute;
-    top: 40%;
-    left: 50%;
-    padding-bottom: 20px;
+    top: 25%;
+    left: 60%;
 }
+
 .carousel-caption{
     margin-top: 100px;
 }
