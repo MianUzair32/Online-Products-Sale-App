@@ -5,6 +5,8 @@ import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { FaqComponent } from './faq/faq.component';
 import { AddtocartComponent } from './addtocart/addtocart.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 const routes: Routes = [
     {path:'about',component:AboutComponent},
@@ -12,6 +14,8 @@ const routes: Routes = [
     {path:'contact',component:ContactComponent},
     {path:'faq',component:FaqComponent},
     {path:'addtocart',component:AddtocartComponent},
+    {path:'login',component:LoginComponent},
+    {path:'register',component:RegisterComponent},
     {path:'',redirectTo:'home',pathMatch:'full'}
 ];
 
