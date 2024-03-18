@@ -8,6 +8,6 @@ import { Router } from '@angular/router';
 export class ProductsComponent {
   constructor(private router:Router){}
   Order(){
-    this.router.navigate(['/addtocart']);
+    this.router.navigate(['/login']);
   }
 }

@@ -16,7 +16,9 @@ import { ContactComponent } from './contact/contact.component';
 import { ScrolltopComponent } from './scrolltop/scrolltop.component';
 import { FaqComponent } from './faq/faq.component';
 import { AddtocartComponent } from './addtocart/addtocart.component';
-
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
+import { FormsModule } from "@angular/forms";
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,11 +33,14 @@ import { AddtocartComponent } from './addtocart/addtocart.component';
     ContactComponent,
     ScrolltopComponent,
     FaqComponent,
-    AddtocartComponent
+    AddtocartComponent,
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [
     provideClientHydration(),
