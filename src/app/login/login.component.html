@@ -11,6 +11,7 @@
     </div>
     <div class="text-center regist-btn">
       <button type="submit" class="btn p-2 m-auto me-5 login">Login</button>
+      <!-- <button *ngIf="!isLoggedIn" routerLink="register" (click)="registerform()" class="register">Register <i class="fa-solid fa-greater-than"></i></button> -->
       <a *ngIf="!isLoggedIn" routerLink="register" (click)="registerform()"><span class="register" >Register <i class="fa-solid fa-greater-than"></i></span></a>
     </div>
   </form>

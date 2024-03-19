@@ -26,8 +26,8 @@ registerForm() { // Pass the NgForm parameter
   alert('You are registered successfully & Please Login!');
   
 }
-// Order(){
-//   this.router.navigate(['/addtocart']);
-// }
+login(){
+  this.router.navigate(['/login']);
+}
 
 }

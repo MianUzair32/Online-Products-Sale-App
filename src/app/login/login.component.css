@@ -15,6 +15,7 @@
     padding: 10.8px;
     margin: 0;
     cursor: pointer;
+    font-size: 15px;
 }
   .regist-btn > a{
     text-decoration: none;
@@ -31,6 +32,7 @@
     margin: 0;
     cursor: pointer;
      width: 80px;
+    font-size: 15px;
 }
 .login:hover{
     color:blue;
